@@ -1,9 +1,8 @@
 ## Cough Sound Classifier: Dry vs Wet Cough
 
-Overview
-This project aims to accurately classify cough sounds into two primary categories: dry cough and wet cough. Utilizing advanced machine learning algorithms and deep learning techniques, we offer a robust tool that can assist researchers, medical professionals, and individuals in identifying cough types, potentially aiding in the early diagnosis of various respiratory conditions.
+An accurately classify cough sounds classifier Utilizing deep learning to offer a robust tool that can assist researchers, medical professionals, and individuals in identifying cough types, potentially aiding in the early diagnosis of various respiratory conditions.
 
-Features
+### Features
 Cough Sound Analysis: Analyze cough sounds using machine learning to differentiate between dry and wet coughs.
 High Accuracy: Trained on a diverse dataset to ensure high accuracy and reliability.
 Easy to Use: Simple interface for uploading cough sound files and receiving instant classification results.
