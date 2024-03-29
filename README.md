@@ -13,6 +13,7 @@ Data Privacy: Ensures users' data privacy with secure processing and storage pra
 Our environment is increasingly being connected with small computers that are aware and responsive. This introductory, hands on module will introduce students to machine learning applied to low power embedded devices. Students will learn the main concepts of deep learning, understand how to apply deep learning to data streams from cameras and other IoT sensors, and how to deploy AI onto sensor devices, such as mobile phones and microcontrollers. Students will learn about deep learning architectures for image and time series data and will apply these ideas to sensor data in order to do forecasting, image recognition, and object tracking.  A significant component of the module will be an individual project to build and deploy an intelligent sensor application. Students will practice these ideas using Python and TensorFlow. The programme has been developed with support from the Google TensorFlow team, uses the TinyML book as a core text and utilises the Arduino Nano as the primary prototyping platform.
 
 ## Research question 
+How can deep learning be optimized to distinguish between dry and wet cough sounds with high accuracy, and what are the implications of such classifications for early detection of respiratory diseases?
 
 ## Learning Objectives
 
