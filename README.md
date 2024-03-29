@@ -1,8 +1,13 @@
-# CASA0018: cough type detector
+# CASA0018: Cough Sound Classifier: Dry vs Wet Cough
 
-This repository contains the lab materials for Connected Environments DL4Sn module. The code folders are divided into the weekly activities. A summary overview of the course is below with a more detailed overview on the UCL Moodle site for CASA0018.
+Overview
+This project aims to accurately classify cough sounds into two primary categories: dry cough and wet cough. Utilizing advanced machine learning algorithms and deep learning techniques, we offer a robust tool that can assist researchers, medical professionals, and individuals in identifying cough types, potentially aiding in the early diagnosis of various respiratory conditions.
 
-> We suggest that students take a fork of this repository so that they can add their own work in progress as they work through the material.
+Features
+Cough Sound Analysis: Analyze cough sounds using machine learning to differentiate between dry and wet coughs.
+High Accuracy: Trained on a diverse dataset to ensure high accuracy and reliability.
+Easy to Use: Simple interface for uploading cough sound files and receiving instant classification results.
+Data Privacy: Ensures users' data privacy with secure processing and storage practices.
 
 ## Summary
 
