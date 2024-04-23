@@ -1,7 +1,7 @@
 ##  Cough or not detector 
 Using TinyML training AI model, and deploy on Arduino Nano BLE board.
 
-Yuhua Jin, link to [github repo with project work in](https://github.com/ucfninf/Deeplearning_Yuhua/edit/main) / [link to Edge Impulse projects](https://studio.edgeimpulse.com/studio/363571/create-impulse)
+Yuhua Jin, link to [github repo with project work in](https://github.com/ucfninf/Cough-type-detector-CASA0018/blob/main/README.md) / [link to Edge Impulse projects](https://studio.edgeimpulse.com/studio/363571/create-impulse)
 
 An accurately classify cough sounds classifier Utilizing deep learning to offer a robust tool that can assist researchers, medical professionals, and individuals in identifying cough types, potentially aiding in the early diagnosis of various respiratory conditions.
 
