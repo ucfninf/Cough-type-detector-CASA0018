@@ -37,6 +37,7 @@ Preprocessing and Data Handling
 To labeling data and preprocessing initially, the audio files were labeled as 'dry cough' or 'wet cough', including data collected offline from classmates. Additionally, labels for 'fake cough (dry cough 1 labeled in the image below)' were introduced to account for variations in the recordings. Each sound file was meticulously trimmed and uniformly distributed across the training and testing datasets. To enhance the robustness of the dataset against real-world conditions, artificial noise was added, and all files were normalized to ensure a consistent sampling rate. Files were also adjusted in length to maintain uniformity.
 Observations and Adjustments:
 After the initial preprocessing and during the early rounds of model training, it became apparent that all types of coughs exhibited highly similar spectral features. This similarity led to overfitting, with the model achieving a maximum accuracy of only 69.2%. In response, the dataset underwent a significant restructuring: all cough sounds were amalgamated into a single category, the 'fake cough' labels were removed, and additional audio types such as sneezes and background noises from medical environments were incorporated. This reclassification and the standardization of audio lengths to a consistent duration improved model accuracy considerably.
+
 ![image](https://github.com/ucfninf/Cough-type-detector-CASA0018/assets/146268411/c614d310-8c1f-40a6-bbe9-b8019ff1b9e7)
 ![image](https://github.com/ucfninf/Cough-type-detector-CASA0018/assets/146268411/893b2767-1cb1-413c-b8e2-bad6daeabb1e)
 
@@ -71,6 +72,7 @@ Training Records
 
 I have first tried MFE and Classification based on the three categorizations (Cough, Sneeze, Background Noise). Then I moved to Spectrogram. I conducted a series of parameter optimization experiments for classifiers based on Mel Frequency Cepstral Coefficients (MFE) and spectrograms. These experiments focused on the adjustment of key parameters to assess their impact on model performance.
 For the MFE model, the initial experiment showed that the model achieved 100% training accuracy and a mere 0.02 training loss, indicating that the model adapted exceptionally well to the training data. 
+
 ![image](https://github.com/ucfninf/Cough-type-detector-CASA0018/assets/146268411/978617e6-95af-4ffa-bdee-8a6fe7a7a34a)![image](https://github.com/ucfninf/Cough-type-detector-CASA0018/assets/146268411/8f8dcfb2-fa29-4c93-a1c2-0730952aa177)![image](https://github.com/ucfninf/Cough-type-detector-CASA0018/assets/146268411/63db8c48-2a06-4d19-bad0-f250279f7299)
 
 In subsequent experiments, I explored the effects of different configurations by adjusting the learning rate (from 0.005 to 0.001), the training cycles (fixed at 100), and the Dropout rate (from 0.25 to 0.1). These adjustments helped the model perform better in preventing overfitting and improving generalization.
@@ -87,6 +89,7 @@ After adjusting the module, the accuracy rate has increased significantly and te
 
 ## Results and Observations
 Experiment 9 and 15 are the best choices for Spectrogram and MFE models. These experiments demonstrated optimal performance and provided the foundation for further practical applications, highlighting their potential in real-world settings.
+
 ![image](https://github.com/ucfninf/Cough-type-detector-CASA0018/assets/146268411/d2db7159-e4ca-4915-b92c-20c1a5503690)![image](https://github.com/ucfninf/Cough-type-detector-CASA0018/assets/146268411/03d33ca9-dd0e-4155-990a-b3f9395a196a)
 Model Successfully deployed Experiment 9 on Arduino Nano BLE 33. 
 
