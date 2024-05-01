@@ -1,6 +1,7 @@
-# Report title goes here
-
-Name of author, link to github repo with project work in / link to Edge Impulse projects
+# Cough or Not Detector
+Yuhua Jin, 
+github repo
+Edge Impulse projects
 
 ## Introduction
 - an overview of what the project does
