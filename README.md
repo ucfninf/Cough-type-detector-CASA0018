@@ -6,7 +6,7 @@ Github Repository: [github repo with project work in](https://github.com/ucfninf
 
 Edge Impulse Projects:[link to Edge Impulse projects](https://studio.edgeimpulse.com/studio/363571/create-impulse)
 
-Presentation Video: 
+Presentation Video: [Youtube Video] https://youtu.be/IqDKaV843iE
 
 ## Introduction
 Early this spring, I came down with a severe case of the flu and had a persistent cough for over a month. This personal health challenge highlighted the importance of recognizing symptoms at an early stage outside of a traditional clinical setting, which inspired me to develop a tool to distinguish coughs from other sounds such as sneezes and ambient noise. The project involved creating a deep learning model by utilizing edge Impulse, that classifies audio inputs into three categories: coughs, sneezes, and background noises.
