@@ -11,6 +11,7 @@ Presentation Video: [Youtube Video](https://youtu.be/IqDKaV843iE)
 ## Introduction
 Early this spring, I came down with a severe case of the flu and had a persistent cough for over a month. This personal health challenge highlighted the importance of recognizing symptoms at an early stage outside of a traditional clinical setting, which inspired me to develop a tool to distinguish coughs from other sounds such as sneezes and ambient noise. The project involved creating a deep learning model by utilizing edge Impulse, that classifies audio inputs into three categories: coughs, sneezes, and background noises.
 This sound-based model is specifically designed for the early detection of abnormalities associated with coughing, which can indicate a variety of health conditions. By accurately recognizing and classifying coughing sounds, the model aims to improve the accuracy of diagnosis in environments such as hospitals and clinics, thereby assisting healthcare professionals. The overall goal of the project is not only to refine the capabilities of the deep learning technology, but also to optimize its use in public health infrastructure. The goal of the project aims to reduce the risk of infection, support medical decision-making, and ultimately provide a tool to enhance early diagnosis and maintain vigilance in public health surveillance.
+
 ![image](https://github.com/ucfninf/Cough-type-detector-CASA0018/assets/146268411/d00fdfff-cf67-485f-a670-ea38c92f5bab) (Verywell Health, 2023)
 
 
