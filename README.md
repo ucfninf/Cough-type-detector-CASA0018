@@ -101,6 +101,8 @@ In terms of deployment, I uploaded the trained model to an Arduino BLE 33 Sensor
 
 With more time, I would continue to refine the deep learning model and conduct further tests until achieving optimized results. I would also introduce more environmental noise and sound sources to enhance the model's accuracy. Moreover, I plan to conduct field deployments in hospitals or other medical facilities to validate the project's value and explore potential applications in various fields. These efforts would improve the model’s robustness and adaptability in diverse and challenging environments.
 
+![9f0ca8e06f203337f23abf1d9d03cad](https://github.com/ucfninf/Cough-type-detector-CASA0018/assets/146268411/9c4f0d8b-f277-40eb-9d69-a32054d56d23)
+
 
 ## Bibliography
 1.	Edge Impulse Documentation. (2023). Run inference on Arduino. Edge Impulse Documentation. [Online]. Available: https://docs.edgeimpulse.com/docs/run-inference/arduino-library
